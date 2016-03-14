@@ -7,6 +7,12 @@
 var app = require('../app');
 var debug = require('debug')('POF-backend:server');
 var http = require('http');
+var Waterline = require('waterline');
+
+// Waterline stuff
+var dbConfig = require('../config/db');
+var Cats = require('../models/cats');
+var Users = require('../models/users');
 
 /**
  * Get port from environment and store in Express.
@@ -25,9 +31,31 @@ var server = http.createServer(app);
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
-server.on('error', onError);
-server.on('listening', onListening);
+
+
+// Instantiate a new instance of the ORM
+var orm = new Waterline();
+
+
+// Load the Models into the ORM
+orm.loadCollection(Users);
+orm.loadCollection(Cats);
+
+// Start Waterline passing adapters in
+orm.initialize(dbConfig, function(err, models) {
+  if(err) throw err;
+
+  // app.models = models.collections;
+  // app.connections = models.connections;
+
+  // Start Server
+  server.listen(port);
+  server.on('error', onError);
+  server.on('listening', onListening);
+
+  console.log("To see saved users, visit http://localhost:3000/users");
+});
+
 
 /**
  * Normalize a port into a number, string, or false.

@@ -69,21 +69,6 @@ app.use(function(err, req, res, next) {
   });
 });
 
-// Instantiate a new instance of the ORM
-// var orm = new Waterline();
-//
-// // Start Waterline passing adapters in
-// orm.initialize(config, function(err, models) {
-//   if(err) throw err;
-//
-//   app.models = models.collections;
-//   app.connections = models.connections;
-//
-//   // Start Server
-//   app.listen(3000);
-//
-//   console.log("To see saved users, visit http://localhost:3000/users");
-// });
-//
+
 
 module.exports = app;
