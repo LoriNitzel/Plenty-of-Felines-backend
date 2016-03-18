@@ -6,8 +6,11 @@ module.exports.welcome = function(req, res){
 
 /* GET 'questions' page */
 
-module.exports.questions = function(req, res){
-  res.render('index', { title: 'Questions!'});
+module.exports.questions = function(req, res) {
+  req.models.users.create(req.body, function(err, model) {
+    if(err) return res.json({ err: err }, 500);
+    res.json(model);
+  });
 };
 
 /* GET 'petfinder' page */

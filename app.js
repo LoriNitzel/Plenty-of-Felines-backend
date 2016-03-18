@@ -8,8 +8,15 @@ var Waterline = require('waterline');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var methodOverride = require('method-override');
-var lodash = require('lodash');
+var debug = require('debug')('POF-backend:server');
+var http = require('http');
 
+// Waterline stuff
+var dbConfig = require('./app_server/config/db');
+var Cats = require('./app_server/models/cats');
+var Users = require('./app_server/models/users');
+
+// Routes
 var routes = require('./app_server/routes/index');
 var users = require('./app_server/routes/users');
 var cats = require('./app_server/routes/cats');
@@ -32,6 +39,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors());
+
+app.use(function(req, res, next){
+  req.models = app.models;
+  next();
+})
 
 app.use('/', routes);
 app.use('/users', users);
@@ -70,5 +82,103 @@ app.use(function(err, req, res, next) {
 });
 
 
+/**
+ * Get port from environment and store in Express.
+ */
 
-module.exports = app;
+var port = normalizePort(process.env.PORT || '3000');
+app.set('port', port);
+
+/**
+ * Create HTTP server.
+ */
+
+var server = http.createServer(app);
+
+/**
+ * Listen on provided port, on all network interfaces.
+ */
+
+// Instantiate a new instance of the ORM
+var orm = new Waterline();
+
+
+// Load the Models into the ORM
+orm.loadCollection(Users);
+orm.loadCollection(Cats);
+
+// Start Waterline passing adapters in
+orm.initialize(dbConfig, function(err, models) {
+  if(err) throw err;
+
+  app.models = models.collections;
+  app.connections = models.connections;
+
+  // Start Server
+  server.listen(port);
+  server.on('error', onError);
+  server.on('listening', onListening);
+
+  console.log("To see saved users, visit http://localhost:3000/users");
+});
+
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}

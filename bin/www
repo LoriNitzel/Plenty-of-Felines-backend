@@ -10,9 +10,9 @@ var http = require('http');
 var Waterline = require('waterline');
 
 // Waterline stuff
-var dbConfig = require('../config/db');
-var Cats = require('../models/cats');
-var Users = require('../models/users');
+var dbConfig = require('../app_server/config/db');
+var Cats = require('../app_server/models/cats');
+var Users = require('../app_server/models/users');
 
 /**
  * Get port from environment and store in Express.
@@ -45,8 +45,8 @@ orm.loadCollection(Cats);
 orm.initialize(dbConfig, function(err, models) {
   if(err) throw err;
 
-  // app.models = models.collections;
-  // app.connections = models.connections;
+  app.models = models.collections;
+  app.connections = models.connections;
 
   // Start Server
   server.listen(port);

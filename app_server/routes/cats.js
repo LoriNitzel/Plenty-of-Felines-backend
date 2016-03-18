@@ -4,7 +4,7 @@ var router = express.Router();
 ///////// Build Express Routes (CRUD routes for /cats)
 
 router.get('/cats', function(req, res) {
-  app.models.cat.find().exec(function(err, model) {
+  app.models.cats.find().exec(function(err, model) {
     if(err) return res.json({ err: err }, 500);
     res.json(model);
   });
