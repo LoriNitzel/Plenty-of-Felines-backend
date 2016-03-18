@@ -19,8 +19,7 @@ router.get('/users/:id/matches/:id', ctrlUsers.catPOF);
 
 
 // /* Cats pages */
-router.get('/cats', ctrlCats.results);
-router.get('/cats/:id', ctrlCats.specificCats);
+router.get('/allcats', ctrlCats.results);
 
 
 // /* Other pages */
