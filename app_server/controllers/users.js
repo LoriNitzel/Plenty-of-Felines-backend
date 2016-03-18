@@ -25,7 +25,10 @@ module.exports.settingsPOF = function(req, res){
 /* GET 'users/:id/matches' page (Cat results page!) */
 
 module.exports.matchesPOF = function(req, res){
-  res.render('index', { title: 'matches'});
+   req.models.cats.find().exec(function(err, model) {
+    if(err) return res.json({ err: err }, 500);
+    res.json(model);
+  });
 };
 
 /* GET 'users/:id/matches/:id' page (Individual Cat info page) */
