@@ -10,6 +10,8 @@ var Cats = Waterline.Collection.extend({
     FCCRSNC_id: 'string',
     name: 'string',
     photo: 'string',
+    photo2: 'string',
+    photo3: 'string',
     color: 'string',
     hair: 'string',
     age: 'string',
@@ -20,7 +22,8 @@ var Cats = Waterline.Collection.extend({
     good_with_kids: 'string',
     good_with_other: 'string',
     atmosphere_needed: 'string',
-    general_characteristics: 'string'
+    general_characteristics: 'string',
+    summary: 'string'
 
   //   owners: {
   //     collection: 'user',

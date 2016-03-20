@@ -1,4 +1,19 @@
+var bcrypt = require('bcrypt');
+
 /* JOIN POF - post 'users' page */
+
+
+
+// function newUserHandler(req, res, next) {
+//   var newUser = {
+//     name: req.body.name,
+//     email: req.body.email
+//   };
+
+//   bcrypt.hash(req.body.password, 10, function(err, hash) {
+//     newUser.password = hash;
+//     addUser();
+//   });
 
 module.exports.joinPOF = function(req, res) {
   req.models.users.create(req.body, function(err, model) {

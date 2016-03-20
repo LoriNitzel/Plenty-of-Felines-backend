@@ -28,6 +28,7 @@
   },
   "main": "app.js",
   "devDependencies": {
+    "bcrypt": "^0.8.5",
     "cors": "^2.7.1",
     "method-override": "^2.3.5"
   },
