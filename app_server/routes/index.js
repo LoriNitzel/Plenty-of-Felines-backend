@@ -28,9 +28,7 @@ router.get('/welcome', ctrlOthers.welcome);
 
 router.post('/questions', ctrlOthers.questions);
 
-router.get('/petfinder', ctrlOthers.petfinder);
-
-router.get('/doppleCat', ctrlOthers.doppleCat);
+// router.get('/doppleCat', ctrlOthers.doppleCat);
 
 
 

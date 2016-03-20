@@ -20,7 +20,7 @@ CREATE TABLE Cats (
   );
 
 CREATE TABLE Users (
- id SERIAL PRIMARY KEY,
+id SERIAL PRIMARY KEY,
 first_name VARCHAR(255),
 last_name VARCHAR(255),
 email VARCHAR(255),
@@ -44,6 +44,50 @@ cat_id INTEGER,
 user_id INTEGER
 );
 
+=======================
+INSERT INTO Users VALUES (
+default,
+'Lori',
+'Nitzel',
+'lori_nitzel@yahoo.com',
+'pofpassword',
+'../assets/img/old-lori.jpeg',
+'FEMALE',
+'Any',
+'black',
+'long-hair',
+TRUE,
+FALSE,
+FALSE,
+TRUE,
+'Loud',
+TRUE 
+);
+
+=======================
+INSERT INTO Users VALUES (
+default,
+'Tom',
+'Lawton',
+'tomlawton@mac..com',
+'pofpassworddy',
+'https://unsplash.com/photos/dQHxyBdNgmU',
+'any-gender',
+'young-adults',
+'tabby/tiger',
+'short-hair',
+TRUE,
+TRUE,
+TRUE,
+FALSE,
+'Quiet',
+FALSE 
+);
+
+==========
+UPDATE Users SET photo = '../assets/img/old-lori.jpeg' WHERE photo = 'https://unsplash.com/photos/y0I85D5QKvs';
+
+UPDATE Users SET photo = '../assets/img/old-tom.jpeg' WHERE photo = 'https://unsplash.com/photos/dQHxyBdNgmU';
 ======================
 INSERT INTO Cats VALUES (
 default,
@@ -66,25 +110,7 @@ FALSE,
 'Isabella is a beautiful, orange and white princess with gorgeous, soulful eyes whose favorite activity is sitting in a human''s lap (or on a warm laptop preventing her human from working so they can pay attention to her)! As with most divas, she is a perfect blend of snuggles and sass...'
 );
 
-=======================
-INSERT INTO Users VALUES (
-default,
-'Lori',
-'Nitzel',
-'lori_nitzel@yahoo.com',
-'pofpassword',
-'https://unsplash.com/photos/y0I85D5QKvs',
-'Any',
-'Any',
-'black',
-'domestic short hair',
-TRUE,
-TRUE,
-FALSE,
-TRUE,
-'Loud',
-TRUE 
-);
+
 
 ========================
 INSERT INTO Cats VALUES (
@@ -206,6 +232,141 @@ ALTER TABLE Cats ADD COLUMN summary text;
 ===========
 ALTER TABLE Cats ADD COLUMN photo2 VARCHAR(500);
 ALTER TABLE Cats ADD COLUMN photo3 VARCHAR(500);
+
+==============
+INSERT INTO Cats Values (
+default,
+23899124,
+'Abacus',
+'http://www.petango.com/sms/photos/1163/d18262ee-bb56-4f25-a914-617d7f9d1799.jpg',
+'http://www.petango.com/sms/photos/1163/8a53928b-0194-414d-a691-5cd38fa7b803.jpg',
+'http://www.petango.com/sms/photos/1163/2593a5e7-1d06-49bb-8c2a-15aabf4a41da.jpg',
+'white',
+'domestic short hair',
+11,
+FALSE,
+'male',
+FALSE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hello, my name is Abacus. You can count on me (get it? Count...abacus...) to be a super snuggly kitty once I get to know you. I don''t play a whole lot but I do love to cuddle and give kisses! With clicker training, I was learning to high-five, spin and beg. My shameful secret (don''t we all have those?) is that I get stressed out living with other cats and then I pee outside the litterbox. I know, it''s so embarrassing but I can''t help it. So I''d do best in a home with no other kitties. I''ve been in the shelter system for over a year (minus a few months in a foster home and even an adoptive home) so I''m really hoping to find my forever home soon! Can I count on you (there it is again!) to take me home and love me forever? See my video at https://www.youtube.com/watch?v=MpgqkPKqBOw, find me by searching for the Clicker Learning Institute''s YouTube channel. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-23899124#sthash.aHpUam4m.dpuf',
+'Hello, my name is Abacus. You can count on me (get it? Count...abacus...) to be a super snuggly kitty once I get to know you. I don''t play a whole lot but I do love to cuddle and give kisses! With clicker training, I was learning to high-five, spin and beg...'
+);
+
+==========================
+INSERT INTO Cats Values (
+default,
+30728759,
+'Warg',
+'http://www.petango.com/sms/photos/1163/cc05845d-5558-424c-8da2-16dd6e441f73.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tabby',
+'domestic long hair',
+3,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Warg!',
+'Please contact the shelter for more information about Warg...'
+);
+
+==============
+INSERT INTO Cats Values (
+default,
+30458828,
+'Ferdinand',
+'http://www.petango.com/sms/photos/1163/920be515-9d4a-4a9c-8e47-c28466df2b76.jpg',
+'http://www.petango.com/sms/photos/1163/5583d442-a780-46be-a6ad-f309a3ce13a0.jpg',
+'http://www.petango.com/sms/photos/1163/740cb7ba-1311-49e3-8896-f367f4dec0d2.jpg',
+'tiger',
+'domestic long hair',
+12,
+TRUE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hi, my name is Ferdinand. I may have the "grumpy old man" appearance in my pictures, but I am far from that! It''s true, I am a mature adult, but that doesn''t mean I don''t have the attitude and energy of a kitten. I love all people, even the little ones. I also love cuddling, eating, and playing with toys (watch the video of me, and you''ll see how darn cute and spunky I am). I had to get a funny haircut because my fur was matted, so I will need your help grooming me as my hair grows back. I enjoy the company of other animals, and will fit in just fine if you have other furry family members. I do have limited vision and early kidney disease that have come with age, but you wouldn''t know it when you see me because I don''t let anything get me down. Eating a special food helps my kidneys, and I still have a super appetite and I don''t require any medications right now. I also have FIV (a kitty virus that may slightly affect my immune system), but I can stay healthy with an indoor home for years to come. - See more at: http://www.petango.com/Adopt/Cat-Maine-Coon-30458828#sthash.L1LiBRtB.dpuf',
+'Hi, my name is Ferdinand. I may have the "grumpy old man" appearance in my pictures, but I am far from that! It''s true, I am a mature adult, but that doesn''t mean I don''t have the attitude and energy of a kitten. I love all people, even the little ones.'
+);
+
+======================
+INSERT INTO Cats Values (
+default,
+30379183,
+'Sebastian',
+'http://www.petango.com/sms/photos/1163/20470a64-c638-4ec0-8e94-db85a4ecd38a.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic short hair',
+11,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Sebastian!',
+'Please contact the shelter for more information about Sebastian...'
+);
+
+==================
+INSERT INTO Cats Values (
+default,
+9796355,
+'Stevie',
+'http://www.petango.com/sms/photos/1163/da7590b8-6fab-40b2-9ca2-3975648432d0.jpg',
+'http://www.petango.com/sms/photos/1163/efa3b2ab-bcb4-49f7-8edf-2f7048ab9bc4.jpg',
+'http://www.petango.com/sms/photos/1163/aa14e497-a91a-4716-aad3-ec8f0bfc579c.jpg',
+'orange',
+'domestic short hair',
+9,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Stevie!',
+'Please contact the shelter for more information about Stevie...'
+);
+
+==================
+INSERT INTO Cats Values (
+default,
+22156175,
+'Penny',
+'http://www.petango.com/sms/photos/1163/c3f6479f-d994-4932-a4d1-ae1d50cd3986.jpg',
+'http://www.petango.com/sms/photos/1163/7f0d8355-7e46-4190-886c-bc376fb6fb56.jpg',
+'http://www.petango.com/sms/photos/1163/8d39ea51-7ae7-455b-b2e8-d7bc1d171e6c.jpg',
+'tortie',
+'domestic short hair',
+9,
+FALSE,
+'female',
+FALSE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hello world. I am a gorgeous and special kitty, and I know what I want from my soon-to-be new, favorite person. If you meet these expectations then, yes, you can take me home: (1) A Cat Dancer! This is my favorite, favorite toy. (2) Feather toys! I love these, too. (3) You are perfectly okay with petting me sometimes but leaving me be when I want my alone time (hey, aren''t we all like that, really?). (4) You can read and respect my body language; it''s the only way I know how to tell you what I want and need. (5) More Cat Dancers! (6) No other cats-you must love me and only me. (7) Birds outside the window to watch and chatter at. I don''t think that''s too much to ask, do you? Great! Then I''ll be waiting right here for YOU! Please don''t take too long to come get me. See my video at https://youtu.be/GkgXGbDAy14. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-22156175#sthash.iEoORsJ9.dpuf',
+'Hello world. I am a gorgeous and special kitty, and I know what I want from my soon-to-be new, favorite person. If you meet these expectations then, yes, you can take me home: (1) A Cat Dancer! This is my favorite, favorite toy...'
+);
+
+==================
+
 
 
 

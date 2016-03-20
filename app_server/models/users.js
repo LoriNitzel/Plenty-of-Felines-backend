@@ -10,7 +10,10 @@ var Users = Waterline.Collection.extend({
     first_name: 'string',
     last_name: 'string',
     email: 'string',
-    password: 'string',
+    password: {
+      type:'string',
+      minLength: 7
+    },
     photo: 'string',
     desired_gender: 'string',
     desired_age: 'string',
@@ -28,7 +31,17 @@ var Users = Waterline.Collection.extend({
   //     via: 'owners',
   //     dominant: true
   // }
-  }
+    },
+
+    beforeCreate: function(values, next) {
+    bcrypt.hash(values.password, 10, function(err, hash) {
+      if (err) {
+        return next(err);
+      }
+      values.password = hash;
+      next();
+    });
+  } 
 });
 
 module.exports = Users;
