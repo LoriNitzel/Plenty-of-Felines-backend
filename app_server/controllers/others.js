@@ -13,6 +13,11 @@ module.exports.questions = function(req, res) {
   });
 };
 
+/* GET 'admin' page */
+
+module.exports.adminPOF = function(req, res){
+  res.render('admin', { title: 'admin page'});
+};
 
 /* GET 'doppleCat' page */
 

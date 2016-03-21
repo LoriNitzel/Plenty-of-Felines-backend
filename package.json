@@ -30,6 +30,8 @@
   "devDependencies": {
     "bcrypt": "^0.8.5",
     "cors": "^2.7.1",
+    "express-jwt": "^3.3.0",
+    "jsonwebtoken": "^5.7.0",
     "method-override": "^2.3.5",
     "passport": "^0.3.2"
   },

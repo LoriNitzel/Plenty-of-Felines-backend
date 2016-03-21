@@ -10,6 +10,7 @@ var cors = require('cors');
 var methodOverride = require('method-override');
 var debug = require('debug')('POF-backend:server');
 var http = require('http');
+var jwt = require('express-jwt');
 
 // Waterline stuff
 var dbConfig = require('./app_server/config/db');
@@ -39,6 +40,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors());
+app.use(jwt({ secret: 'secretsecretihaveasecret'}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats:id']}));
 
 app.use(function(req, res, next){
   req.models = app.models;

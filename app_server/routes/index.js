@@ -11,6 +11,7 @@ router.get('/', ctrlMain.index);
 
 
 /* Users pages */
+router.post('/login', ctrlUsers.loginPOF);
 router.post('/users', ctrlUsers.joinPOF);
 router.get('/users/:id', ctrlUsers.profilePOF);
 router.get('/users/:id/matches', ctrlUsers.matchesPOF);
@@ -30,6 +31,8 @@ router.delete('/cats/:id', ctrlCats.catDelete);
 router.get('/welcome', ctrlOthers.welcome);
 
 router.post('/questions', ctrlOthers.questions);
+
+router.get('/admin', ctrlOthers.adminPOF);
 
 // router.get('/doppleCat', ctrlOthers.doppleCat);
 

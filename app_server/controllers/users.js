@@ -1,4 +1,5 @@
-
+var jsonwebtoken = require('jsonwebtoken');
+var bcrypt = require('bcrypt');
 
 /* JOIN POF - post 'users' page */
 
@@ -7,6 +8,22 @@ module.exports.joinPOF = function(req, res) {
     if(err) return res.json({ err: err }, 500);
     res.json(model);
   });
+};
+
+/* LOGIN POF - user login page */
+
+module.exports.loginPOF = function(req, res){
+  req.models.users.findOne({ email: req.body.email }, function(err, model){
+    if(err) return res.json({ err: err }, 500);
+    console.log(model);
+    bcrypt.compare(req.body.password, model.password, function(err, result){
+      if(result == true){
+        console.log("passwords match");
+        var token = jsonwebtoken.sign({ id: model.id }, 'secretsecretihaveasecret');
+        res.json(token);
+      }
+    });
+  })
 };
 
 /* GET 'users/:id' page (User's Profile Page)*/

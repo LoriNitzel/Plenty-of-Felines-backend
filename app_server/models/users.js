@@ -1,4 +1,5 @@
 var Waterline = require('waterline');
+var bcrypt = require('bcrypt');
 
 var Users = Waterline.Collection.extend({
 
@@ -6,7 +7,11 @@ var Users = Waterline.Collection.extend({
   connection: 'myLocalPostgres',
 
   attributes: {
-    id: 'string',
+    id: {
+    type: 'integer',
+    unique: true,
+    autoIncrement: true
+    },
     first_name: 'string',
     last_name: 'string',
     email: 'string',
