@@ -13,14 +13,17 @@ router.get('/', ctrlMain.index);
 /* Users pages */
 router.post('/users', ctrlUsers.joinPOF);
 router.get('/users/:id', ctrlUsers.profilePOF);
-router.get('/users/:id/settings', ctrlUsers.settingsPOF);
 router.get('/users/:id/matches', ctrlUsers.matchesPOF);
 router.get('/users/:id/matches/:id', ctrlUsers.catPOF);
-
+router.put('/users/:id', ctrlUsers.profileUpdate);
+router.delete('/users/:id', ctrlUsers.profileDestroy);
+router.get('/users/:id/edit', ctrlUsers.editProfile);
 
 // /* Cats pages */
 router.get('/cats', ctrlCats.results);
 router.get('/cats/:id', ctrlCats.specificCats);
+router.put('/cats/:id', ctrlCats.catUpdate);
+router.delete('/cats/:id', ctrlCats.catDelete);
 
 
 // /* Other pages */

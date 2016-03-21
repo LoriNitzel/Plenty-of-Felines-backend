@@ -66,12 +66,12 @@ TRUE
 
 =======================
 INSERT INTO Users VALUES (
-default,
+2,
 'Tom',
 'Lawton',
 'tomlawton@mac..com',
 'pofpassworddy',
-'https://unsplash.com/photos/dQHxyBdNgmU',
+'../assets/img/old-tom.jpeg',
 'any-gender',
 'young-adults',
 'tabby/tiger',
@@ -88,6 +88,8 @@ FALSE
 UPDATE Users SET photo = '../assets/img/old-lori.jpeg' WHERE photo = 'https://unsplash.com/photos/y0I85D5QKvs';
 
 UPDATE Users SET photo = '../assets/img/old-tom.jpeg' WHERE photo = 'https://unsplash.com/photos/dQHxyBdNgmU';
+
+DELETE FROM Users WHERE name = 'Tom';
 ======================
 INSERT INTO Cats VALUES (
 default,
