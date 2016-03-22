@@ -15,12 +15,13 @@ module.exports.joinPOF = function(req, res) {
 module.exports.loginPOF = function(req, res){
   req.models.users.findOne({ email: req.body.email }, function(err, model){
     if(err) return res.json({ err: err }, 500);
+    console.log(req.body.email);
     console.log(model);
     bcrypt.compare(req.body.password, model.password, function(err, result){
       if(result == true){
         console.log("passwords match");
         var token = jsonwebtoken.sign({ id: model.id }, 'secretsecretihaveasecret');
-        res.json(token);
+        res.json({'token': token, 'id': model.id});
       }
     });
   })

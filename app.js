@@ -40,7 +40,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
 app.use(cors());
-app.use(jwt({ secret: 'secretsecretihaveasecret'}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats:id']}));
+app.use(jwt({ secret: 'secretsecretihaveasecret'}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats/:id']}));
 
 app.use(function(req, res, next){
   req.models = app.models;

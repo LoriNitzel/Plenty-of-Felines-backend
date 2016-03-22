@@ -7,7 +7,10 @@ module.exports.welcome = function(req, res){
 /* GET 'questions' page */
 
 module.exports.questions = function(req, res) {
-  req.models.users.create(req.body, function(err, model) {
+   // Don't pass ID to update
+  delete req.body.id;
+
+  req.models.users.update({ id: req.params.id }, req.body, function(err, model) {
     if(err) return res.json({ err: err }, 500);
     res.json(model);
   });

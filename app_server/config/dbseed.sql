@@ -369,8 +369,16 @@ TRUE,
 
 ==================
 
-
-
+"desired_gender": vm.answerdata (??)
+"desired_age": 
+"desired_color":
+"desired_hair": 
+"dogs_in_home":
+"cats_in_home":
+"other_in_home":
+"kids_in_home":
+"atmosphere_in_home":
+"medical_acceptable":
 
 
 

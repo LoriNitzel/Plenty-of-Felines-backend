@@ -23,8 +23,8 @@ router.get('/users/:id/edit', ctrlUsers.editProfile);
 // /* Cats pages */
 router.get('/cats', ctrlCats.results);
 router.get('/cats/:id', ctrlCats.specificCats);
-router.put('/cats/:id', ctrlCats.catUpdate);
-router.delete('/cats/:id', ctrlCats.catDelete);
+router.put('/cats/admin/:id', ctrlCats.catUpdate);
+router.delete('/cats/delete/:id', ctrlCats.catDelete);
 
 
 // /* Other pages */
@@ -33,6 +33,7 @@ router.get('/welcome', ctrlOthers.welcome);
 router.post('/questions', ctrlOthers.questions);
 
 router.get('/admin', ctrlOthers.adminPOF);
+
 
 // router.get('/doppleCat', ctrlOthers.doppleCat);
 
