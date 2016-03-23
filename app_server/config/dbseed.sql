@@ -40,8 +40,8 @@ medical_acceptable BOOLEAN
 
 CREATE TABLE Matches (
 id SERIAL PRIMARY KEY,
-cat_id INTEGER,
-user_id INTEGER
+user_id INTEGER,
+cat_id INTEGER
 );
 
 =======================
@@ -90,6 +90,38 @@ UPDATE Users SET photo = '../assets/img/old-lori.jpeg' WHERE photo = 'https://un
 UPDATE Users SET photo = '../assets/img/old-tom.jpeg' WHERE photo = 'https://unsplash.com/photos/dQHxyBdNgmU';
 
 DELETE FROM Users WHERE name = 'Tom';
+
+
+==================
+INSERT INTO Matches VALUES (
+default, 
+1, 
+4
+);
+
+INSERT INTO Matches VALUES (
+default, 
+1, 
+7
+);
+
+INSERT INTO Matches VALUES (
+default, 
+1, 
+10
+);
+
+INSERT INTO Matches VALUES (
+default, 
+1, 
+11
+);
+
+INSERT INTO Matches VALUES (
+default, 
+1, 
+13
+);
 ======================
 INSERT INTO Cats VALUES (
 default,

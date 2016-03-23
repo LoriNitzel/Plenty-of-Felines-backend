@@ -1,16 +1,18 @@
 var jsonwebtoken = require('jsonwebtoken');
 var bcrypt = require('bcrypt');
 
-/* JOIN POF - post 'users' page */
+/* JOIN POF - post new users' data on '/users' page to database */
 
 module.exports.joinPOF = function(req, res) {
   req.models.users.create(req.body, function(err, model) {
     if(err) return res.json({ err: err }, 500);
-    res.json(model);
+    var token = jsonwebtoken.sign({ id: model.id }, process.env.JWT_SECRET);
+    res.json({'token': token, 'id': model.id});
+    // res.json(token);
   });
 };
 
-/* LOGIN POF - user login page */
+/* LOGIN POF - user login page '/login' - user's data to database with password check */
 
 module.exports.loginPOF = function(req, res){
   req.models.users.findOne({ email: req.body.email }, function(err, model){
@@ -20,7 +22,7 @@ module.exports.loginPOF = function(req, res){
     bcrypt.compare(req.body.password, model.password, function(err, result){
       if(result == true){
         console.log("passwords match");
-        var token = jsonwebtoken.sign({ id: model.id }, 'secretsecretihaveasecret');
+        var token = jsonwebtoken.sign({ id: model.id }, process.env.JWT_SECRET);
         res.json({'token': token, 'id': model.id});
       }
     });
@@ -60,23 +62,29 @@ module.exports.profileDestroy = function(req, res) {
 };
 
 
-/* GET 'users/:id/matches' page (Cat results page!) */
+/* GET 'users/matches' page (Cat Matches page!) */
 
 module.exports.matchesPOF = function(req, res){
-   req.models.cats.find().exec(function(err, model) {
+   req.models.matches.find().exec(function(err, model) {
     if(err) return res.json({ err: err }, 500);
     res.json(model);
   });
 };
 
-/* GET 'users/:id/matches/:id' page (Individual Cat info page) */
+/* GET 'users/matches/:id' page (Individual Cat info page - from Matches page) */
+//will need to grab this data by cat_id linked to Cats table!!//
+
 
 module.exports.catPOF = function(req, res){
-  req.models.cats.findOne({ id: req.params.id }, function(err, model){
-    if(err) return res.json({ err: err }, 500);
-    res.json(model);
-  });
+  res.render('index', { title: 'ind cats from match page'});
 };
+
+// module.exports.catPOF = function(req, res){
+//   req.models.cats.findOne({ id: req.params.id }, function(err, model){
+//     if(err) return res.json({ err: err }, 500);
+//     res.json(model);
+//   });
+// };
 
 /* GET 'users/:id/edit' page (don't think I'm going to use this one!) */
 

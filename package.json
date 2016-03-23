@@ -30,6 +30,7 @@
   "devDependencies": {
     "bcrypt": "^0.8.5",
     "cors": "^2.7.1",
+    "dotenv": "^2.0.0",
     "express-jwt": "^3.3.0",
     "jsonwebtoken": "^5.7.0",
     "method-override": "^2.3.5",

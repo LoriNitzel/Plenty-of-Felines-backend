@@ -6,7 +6,11 @@ var Cats = Waterline.Collection.extend({
   connection: 'myLocalPostgres',
 
   attributes: {
-    id: 'string',
+    id: {
+    type: 'integer',
+    unique: true,
+    autoIncrement: true
+    },
     FCCRSNC_id: 'string',
     name: 'string',
     photo: 'string',

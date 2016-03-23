@@ -1,4 +1,5 @@
 var express = require('express');
+var dotenv = require('dotenv').config();
 var path = require('path');
 var favicon = require('serve-favicon');
 var logger = require('morgan');
@@ -24,6 +25,7 @@ var cats = require('./app_server/routes/cats');
 var questions = require('./app_server/routes/questions');
 
 var app = express();
+app.use(cors());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'app_server','views'));
@@ -39,8 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
-app.use(cors());
-app.use(jwt({ secret: 'secretsecretihaveasecret'}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats/:id']}));
+app.use(jwt({ secret: process.env.JWT_SECRET}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats/:id']}));
 
 app.use(function(req, res, next){
   req.models = app.models;
