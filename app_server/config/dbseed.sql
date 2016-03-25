@@ -401,7 +401,255 @@ TRUE,
 
 ==================
 
-DELETE FROM Cats WHERE name = 'Penny';
+DELETE FROM Cats WHERE name = 'Oliver';
 DELETE FROM Cats WHERE name = 'Frank the Tank';
+
+DELETE FROM Users WHERE first_name = 'Roger3';
+DELETE FROM Users WHERE first_name = 'eugene';
+
+=================
+INSERT INTO Cats Values (
+default,
+30960675,
+'Bat',
+'http://www.petango.com/sms/photos/1163/7a96bb84-d043-479d-b238-2e1537d29026.jpg',
+'http://www.petango.com/sms/photos/1163/69bc7b87-9b5e-44a8-8f2f-2d483474db9e.jpg',
+'../assets/img/cat-extra.png',
+'black',
+'domestic short hair',
+7,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Bat!',
+'Please contact the shelter for more information about Bat...'
+);
+
+===================
+INSERT INTO Cats Values (
+default,
+30334954,
+'Charlotte Bronte',
+'http://www.petango.com/sms/photos/1163/39ad06b8-b656-40d5-babd-54fba285b095.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'black',
+'domestic long hair',
+1,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Charlotte Bronte!',
+'Please contact the shelter for more information about Charlotte Bronte...'
+);
+
+==================
+INSERT INTO Cats Values (
+default,
+24878434,
+'Anastasia',
+'http://www.petango.com/sms/photos/1163/b2679032-f025-4848-b25b-72b7913e5238.jpg',
+'http://www.petango.com/sms/photos/1163/e3c97b4e-00f8-4184-accd-ba433371b6b9.jpg',
+'http://www.petango.com/sms/photos/1163/0d451311-974c-484b-8032-891a0235b0fd.jpg',
+'grey',
+'domestic short hair',
+4,
+FALSE,
+'female',
+FALSE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'I am very nervous and curious at first. Once I settle in though, I am well behaved, calm, and have a great loving personality! I love some affection here and there, but am also completely content lounging or exploring on my own. I prefer to be the only cat of the house; others like me stress me out! I am a lover when I get all the attention to myself! I like all treats (I am a hungry kitty...) and since I am older I am not too playful, but occasionally I have fun with fishing pole-like toys. Sometimes I just try to cuddle with my toys instead of attack them, it is pretty cute. I am a lover!
+Some words that describe me are: Affectionate, Mellow, Curious, Independent, Easygoing, Easily startled, Quick to react, Loves food. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-24878434#sthash.OweDAPkG.dpuf',
+'I am very nervous and curious at first. Once I settle in though, I am well behaved, calm, and have a great loving personality! I love some affection here and there, but am also completely content lounging or exploring on my own...'
+);
+==============
+INSERT INTO Cats Values (
+default,
+30872592,
+'Althea',
+'http://www.petango.com/sms/photos/1163/15af6bd0-85ae-4982-9983-9cf070b4fe90.jpg',
+'http://www.petango.com/sms/photos/1163/a8121db6-60d9-4f47-85fb-f747ce3341f3.jpg',
+'http://www.petango.com/sms/photos/1163/bd99947e-b22e-4e80-9e77-58a48e33e09e.jpg',
+'white',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Althea is a true delight! But she is looking for someone who will be patient and kind with her, as she is initially quite shy and wary of hands coming toward her. However, Althea is super snuggly once she gets to know you and loves to cuddle with her head in your hand, purring away. This beautiful girl is super playful and will entertain herself with toys if you''re too busy at the moment, though she also loves to play with people. Althea is also hoping someone will help her slim down a bit so she can live the longest, happiest and healthiest life possible! See her video at https://www.youtube.com/watch?v=Igcy-qt4iWY (search YouTube for the Clicker Learning Institute''s channel or scan the QR code below to go right to it). Then come on down and give her the forever home she''s been searching for! - See more at: http://www.petango.com/Adopt/Cat-Snowshoe-30872592#sthash.c3tnIxxV.dpuf',
+'Althea is a true delight! But she is looking for someone who will be patient and kind with her, as she is initially quite shy and wary of hands coming toward her. However, Althea is super snuggly once she gets to know you and loves to cuddle with her head in your hand, purring away...'
+);
+
+===========
+
+INSERT INTO Cats Values (
+default,
+30802779,
+'Twizzler',
+'http://www.petango.com/sms/photos/1163/0014c5e1-1ead-46dc-8069-bbef41006adc.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic short hair',
+9,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Twizzler!',
+'Please contact the shelter for more information about Twizzler...'
+);
+
+================
+INSERT INTO Cats Values (
+default,
+30465426,
+'Lucy',
+'http://www.petango.com/sms/photos/1163/3b275ea8-7fbb-4f0f-8671-3d8876bb9067.jpg',
+'http://www.petango.com/sms/photos/1163/d2bc38ae-9fab-40f3-97a7-eec2468707ef.jpg',
+'http://www.petango.com/sms/photos/1163/655d2b54-3339-4b77-b36d-0862dd702759.jpg',
+'tiger',
+'domestic short hair',
+11,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Lucy is very sweet and loves people. She is very loving and likes to sunbathe or find a hidden warm spot to sleep. She is quiet but sometimes she feels like playing, and she also enjoys being in the same room with you while you are busy doing other stuff. She is smart and funny and great company. Her reaction to dogs is still unknown, and she is wary of other cats but could just need time to warm up to them.',
+'Lucy is very sweet and loves people. She is very loving and likes to sunbathe or find a hidden warm spot to sleep...'
+);
+
+==================
+INSERT INTO Cats Values (
+default,
+24318577,
+'Chirp',
+'http://www.petango.com/sms/photos/1163/347da57d-7b45-4091-9656-91e0c8fb2a71.jpg',
+'http://www.petango.com/sms/photos/1163/648997b7-1ba6-4f35-88da-dfe514072244.jpg',
+'http://www.petango.com/sms/photos/1163/682f9aa7-2933-449e-8637-5a11087f56db.jpg',
+'black',
+'domestic short hair',
+10,
+TRUE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'My name is Chirp. I''m about 10 years old. I am a very relaxed guy - I don''t really play much but I will be your best friend. I like to snuggle with you and be pet all the time, and I love a good scratch on my rump! I''m very low maintenance and am so quiet I barely make a peep. I have some early renal failure but you wouldn''t know it, except I need special food. I am also FIV+.',
+'My name is Chirp. I''m about 10 years old. I am a very relaxed guy - I don''t really play much but I will be your best friend. ...'
+);
+
+============
+INSERT INTO Cats Values (
+default,
+31126780,
+'Oliver',
+'http://www.petango.com/sms/photos/1163/9b567260-5227-4156-9b1f-5a5dfdcfee40.jpg',
+'http://www.petango.com/sms/photos/1163/e92d8ae2-1e5e-4d40-817b-67ed99302f45.jpg',
+'http://www.petango.com/sms/photos/1163/353bc61c-5f87-4028-b901-3de80cd55497.jpg',
+'tiger',
+'domestic short hair',
+2,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Oliver!',
+'Please contact the shelter for more information about Oliver...'
+);
+
+==============
+INSERT INTO Cats Values (
+default,
+24714872,
+'Miss Gilbert',
+'http://www.petango.com/sms/photos/1163/429f36c1-cb9d-42a1-a319-ae6af24c7e57.jpg',
+'http://www.petango.com/sms/photos/1163/61ae2a68-d1fc-4891-aa36-ce9e7ff572c7.jpg',
+'http://www.petango.com/sms/photos/1163/cbcb82f3-c01f-494c-a778-1f97d48682a4.jpg',
+'tiger',
+'domestic short hair',
+6,
+TRUE,
+'female',
+FALSE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hi, I''m Miss Gilbert! I am a serious snuggle bug. I would love to sit in your lap and play with you. I like other cats and dogs, too. But watch out - I would love to steal your food for myself, and you can expect to see me right by your side whenever you have something tasty to eat. I have Feline Leukemia (FeLv) and can only live in a home as an only cat, or with other cats who are also FeLv+. If you are looking for a loving and playful kitty, contact my foster mom at amanda.evrard@gmail.com to schedule a time to come and visit me, and find more pictures of me here!: https://www.facebook.com/media/set/?set=a.10101901510300026.1073741863.11506392&type=1&l=5cb152ee9f',
+'Hi, I''m Miss Gilbert! I am a serious snuggle bug. I would love to sit in your lap and play with you. I like other cats and dogs, too. But watch out - I would love to steal your food for myself, and you can expect to see me right by your side whenever you have something tasty to eat...'
+);
+
+===============
+
+INSERT INTO Cats Values (
+default,
+29629671,
+'Marie Antoinette',
+'http://www.petango.com/sms/photos/1163/cf05edd7-618f-42b6-bd23-00a489e7c968.jpg',
+'http://www.petango.com/sms/photos/1163/e9cc2df3-0dfb-4fbc-adaf-4b07324fc79d.jpg',
+'../assets/img/cat-extra.png',
+'white',
+'domestic short hair',
+3,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Marie Antoinette!',
+'Please contact the shelter for more information about Marie Antoinette...'
+);
+=================
+INSERT INTO Cats Values (
+default,
+99999999,
+'Honey Badger',
+'https://i.ytimg.com/vi/x9Jr9JKpsX8/maxresdefault.jpg',
+'http://www.badassoftheweek.com/honeybadger1.jpg',
+'http://images6.fanpop.com/image/photos/38500000/Honey-Badger-don-t-care-honey-badger-38506719-640-621.jpg',
+'black',
+'domestic short hair',
+2,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'The honey badger resembles its distant relative the skunk in coloration and in the possession of an anal scent gland. It is nocturnal, feeds on rodents, reptiles, and insects, and has a thick loose coat that protects it against snake bites and insect stings...',
+'You got kids? Honey Badger don''t care...You got cats? Honey Badger don''t care...'
+);
+
+
 
 
