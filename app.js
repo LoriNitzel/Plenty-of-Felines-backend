@@ -41,7 +41,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(methodOverride());
-app.use(jwt({ secret: process.env.JWT_SECRET}).unless({ path: ['/users', '/login', '/welcome', '/questions', '/cats', '/cats/:id']}));
+app.use(jwt({ secret: process.env.JWT_SECRET }).unless({ path: ['/users', '/login', '/welcome', '/cats', '/cats/:id']}));
 
 app.use(function(req, res, next){
   req.models = app.models;

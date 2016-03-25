@@ -9,8 +9,8 @@ module.exports.welcome = function(req, res){
 module.exports.questions = function(req, res) {
    // Don't pass ID to update
   delete req.body.id;
-  req.models.users.update({ id: req.params.id }, req.body, function(err, model) {
-    console.log(req.params.id);
+  console.log(req.user);
+  req.models.users.update({ id: req.user.id }, req.body, function(err, model) {
     if(err) return res.json({ err: err }, 500);
     res.json(model);
   });

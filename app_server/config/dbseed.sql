@@ -219,7 +219,7 @@ default,
 'Frank the Tank',
 'http://www.petango.com/sms/photos/1163/5cae597b-0eb9-452d-810d-c38e65ba7b2e.jpg',
 'http://www.petango.com/sms/photos/1163/e68b45e2-6385-4514-9f22-d5df88b95a84.jpg',
-'http://www.petango.com/sms/photos/1163/5cae597b-0eb9-452d-810d-c38e65ba7b2e.jpg',
+'http://www.petango.com/sms/photos/1163/a9884490-0553-4a82-8132-780c6db6fe92.jpg',
 'black and white',
 'domestic short hair',
 10,
@@ -382,9 +382,9 @@ INSERT INTO Cats Values (
 default,
 22156175,
 'Penny',
-'http://www.petango.com/sms/photos/1163/c3f6479f-d994-4932-a4d1-ae1d50cd3986.jpg',
-'http://www.petango.com/sms/photos/1163/7f0d8355-7e46-4190-886c-bc376fb6fb56.jpg',
-'http://www.petango.com/sms/photos/1163/8d39ea51-7ae7-455b-b2e8-d7bc1d171e6c.jpg',
+'http://www.petango.com/sms/photos/1163/26573fe0-18ba-43c4-9726-71ab467a5729.jpg',
+'http://www.petango.com/sms/photos/1163/465f6ce0-878f-41ed-b2ad-ba91a31d23ff.jpg',
+'http://www.petango.com/sms/photos/1163/6e35b385-5079-4e3d-aca4-a7b37d1eb27f.jpg',
 'tortie',
 'domestic short hair',
 9,
@@ -401,16 +401,7 @@ TRUE,
 
 ==================
 
-"desired_gender": vm.answerdata (??)
-"desired_age": 
-"desired_color":
-"desired_hair": 
-"dogs_in_home":
-"cats_in_home":
-"other_in_home":
-"kids_in_home":
-"atmosphere_in_home":
-"medical_acceptable":
-
+DELETE FROM Cats WHERE name = 'Penny';
+DELETE FROM Cats WHERE name = 'Frank the Tank';
 
 

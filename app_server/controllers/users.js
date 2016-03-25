@@ -65,19 +65,23 @@ module.exports.profileDestroy = function(req, res) {
 /* GET 'users/matches' page (Cat Matches page!) */
 
 module.exports.matchesPOF = function(req, res){
-   req.models.matches.find().exec(function(err, model) {
+  console.log(req.user);
+  req.models.users.findOne({ id: req.user.id }, function(err, user){
+    if(err) return res.json({ err: err}, 500);
+  req.models.cats.find().exec(function(err, model) {
     if(err) return res.json({ err: err }, 500);
-    res.json(model);
-  });
+    res.json({ user: user, model: model });
+  })
+ });
 };
 
 /* GET 'users/matches/:id' page (Individual Cat info page - from Matches page) */
 //will need to grab this data by cat_id linked to Cats table!!//
 
 
-module.exports.catPOF = function(req, res){
-  res.render('index', { title: 'ind cats from match page'});
-};
+// module.exports.catPOF = function(req, res){
+//   res.render('index', { title: 'ind cats from match page'});
+// };
 
 // module.exports.catPOF = function(req, res){
 //   req.models.cats.findOne({ id: req.params.id }, function(err, model){

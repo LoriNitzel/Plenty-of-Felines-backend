@@ -10,12 +10,12 @@ var ctrlCats = require('../controllers/cats');
 router.get('/', ctrlMain.index);
 
 
-/* Users pages */
+/* Users pages (put id routes at the bottom!!!) */
 router.post('/login', ctrlUsers.loginPOF);
 router.post('/users', ctrlUsers.joinPOF);
-router.get('/users/:id', ctrlUsers.profilePOF);
 router.get('/users/matches', ctrlUsers.matchesPOF);
-router.get('/users/matches/:id', ctrlUsers.catPOF);
+router.get('/users/:id', ctrlUsers.profilePOF);
+// router.get('/users/:id/matches', ctrlUsers.catPOF);
 router.put('/users/:id', ctrlUsers.profileUpdate);
 router.delete('/users/:id', ctrlUsers.profileDestroy);
 router.get('/users/:id/edit', ctrlUsers.editProfile);
@@ -30,7 +30,7 @@ router.delete('/cats/delete/:id', ctrlCats.catDelete);
 // /* Other pages */
 router.get('/welcome', ctrlOthers.welcome);
 
-router.post('/questions', ctrlOthers.questions);
+router.put('/questions', ctrlOthers.questions);
 
 router.get('/admin', ctrlOthers.adminPOF);
 
