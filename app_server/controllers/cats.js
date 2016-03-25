@@ -16,6 +16,26 @@ module.exports.specificCats = function(req, res) {
   });
 };
 
+
+/* GET 'admin' page - shows all cats */
+
+module.exports.admin = function(req, res){
+ req.models.cats.find().exec(function(err, model) {
+    if(err) return res.json({ err: err }, 500);
+    res.json(model);
+  });
+};
+
+/* CREATE a CAT */
+
+module.exports.createCats = function(req, res) {
+  req.models.cats.create(req.body, function(err, model) {
+    if(err) return res.json({ err: err }, 500);
+    res.json(model);
+  });
+};
+
+
 /* UPDATE a Cat */
 
 module.exports.catUpdate = function(req, res) {
@@ -31,7 +51,7 @@ module.exports.catUpdate = function(req, res) {
 /* DELETE a Cat */
 
 module.exports.catDelete = function(req, res) {
-  req.models.cat.destroy({ id: req.params.id }, function(err) {
+  req.models.cats.destroy({ id: req.params.id }, function(err) {
     if(err) return res.json({ err: err }, 500);
     res.json({ status: 'ok' });
   });

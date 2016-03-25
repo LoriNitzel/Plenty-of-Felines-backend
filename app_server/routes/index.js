@@ -10,35 +10,32 @@ var ctrlCats = require('../controllers/cats');
 router.get('/', ctrlMain.index);
 
 
+
 /* Users pages (put id routes at the bottom!!!) */
 router.post('/login', ctrlUsers.loginPOF);
 router.post('/users', ctrlUsers.joinPOF);
 router.get('/users/matches', ctrlUsers.matchesPOF);
 router.get('/users/:id', ctrlUsers.profilePOF);
-// router.get('/users/:id/matches', ctrlUsers.catPOF);
 router.put('/users/:id', ctrlUsers.profileUpdate);
 router.delete('/users/:id', ctrlUsers.profileDestroy);
 router.get('/users/:id/edit', ctrlUsers.editProfile);
 
-// /* Cats pages */
+
+
+ /* Cats pages */
 router.get('/cats', ctrlCats.results);
-router.get('/cats/:id', ctrlCats.specificCats);
+router.get('/cats/admin', ctrlCats.admin);
+router.post('/cats/admin/create', ctrlCats.createCats);
+router.delete('/cats/admin/delete/:id', ctrlCats.catDelete);
 router.put('/cats/admin/:id', ctrlCats.catUpdate);
-router.delete('/cats/delete/:id', ctrlCats.catDelete);
+router.get('/cats/:id', ctrlCats.specificCats);
 
 
-// /* Other pages */
+
+ /* Other pages */
 router.get('/welcome', ctrlOthers.welcome);
-
 router.put('/questions', ctrlOthers.questions);
-
-router.get('/admin', ctrlOthers.adminPOF);
-
-
 // router.get('/doppleCat', ctrlOthers.doppleCat);
-
-
-
 
 
 module.exports = router;
