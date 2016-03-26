@@ -32,6 +32,7 @@ router.get('/cats/:id', ctrlCats.specificCats);
 
 
 
+
  /* Other pages */
 router.get('/welcome', ctrlOthers.welcome);
 router.put('/questions', ctrlOthers.questions);
