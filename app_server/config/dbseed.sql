@@ -930,7 +930,217 @@ TRUE,
 'Please contact the shelter for more information about Stitch!',
 'Please contact the shelter for more information about Stitch.'
 );
-
+==================
+INSERT INTO Cats Values (
+default,
+30960677,
+'Bagheera',
+'http://www.petango.com/sms/photos/1163/64cf1393-8d83-4079-a4ce-f7481560769a.jpg',
+'http://www.petango.com/sms/photos/1163/dbd618d3-f854-4183-b8cb-9b21dbfb4908.jpg',
+'http://www.petango.com/sms/photos/1163/5bd98fe2-70fa-4139-87ca-a583929d38c7.jpg',
+'black',
+'domestic short hair',
+1,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hi my name is Bagheera! I''m an adorable 8 month old black kitten. I was very nervous in the shelter but am doing better in a foster home. I am still very shy and adjusting so I will hide until I feel safe. I love to be pet though and will flop over for belly rubs! I like other cats and just need a little TLC to come out of my shell. I will need a slow introduction to your home but I am a very sweet boy.',
+'Hi my name is Bagheera! I''m an adorable 8 month old black kitten. I was very nervous in the shelter but am doing better in a foster home...'
+);
+===============
+INSERT INTO Cats Values (
+default,
+30877796,
+'Zeta',
+'http://www.petango.com/sms/photos/1163/7587a8b6-f9e3-4a91-9ac3-49dc59c8f79d.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Zeta!',
+'Please contact the shelter for more information about Zeta.'
+);
+==================
+INSERT INTO Cats Values (
+default,
+31131826,
+'Sweetie',
+'http://www.petango.com/sms/photos/1163/17be251e-e3cd-45ed-a114-15b060c0ffb3.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Sweetie!',
+'Please contact the shelter for more information about Sweetie.'
+);
+=====================
+INSERT INTO Cats Values (
+default,
+30953694,
+'Roo',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'white',
+'domestic short hair',
+0,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 2-month-old Roo!',
+'Please contact the shelter for more information about 2-month-old Roo.'
+);
+==================
+INSERT INTO Cats Values (
+default,
+31114979,
+'Ava',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'white',
+'domestic short hair',
+1,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Ava!',
+'Please contact the shelter for more information about Ava.'
+);
+===================
+INSERT INTO Cats Values (
+default,
+30876496,
+'Alison',
+'http://www.petango.com/sms/photos/1163/32acb426-d804-488f-acb6-fc45dfae77c7.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'white',
+'domestic long hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Alison!',
+'Please contact the shelter for more information about Alison.'
+);
+=====================
+INSERT INTO Cats Values (
+default,
+30580662,
+'Pheobe',
+'http://www.petango.com/sms/photos/1163/83a38305-69f7-4afb-bc9d-8cf14f8ba1e7.jpg',
+'http://www.petango.com/sms/photos/1163/eccc8ecb-539d-4a04-b682-4b2f6beb1967.jpg',
+'http://www.petango.com/sms/photos/1163/2c7342d5-7672-40d0-891d-aa0116302619.jpg',
+'orange',
+'domestic long hair',
+9,
+FALSE,
+'female',
+FALSE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Hi, I''m Pheobe, but you can call me Princess Pheobe, if you please. I lived a long time with a family but then a lot of changes happened-new kids and dogs appeared, and I lost my kitty friend, so they thought I''d do better in a new home where I can rule the household. Even though I lived with a cat before, I''m definitely not a fan of the other cats here at the shelter so may do best being the only feline in your home (or maybe, with proper introductions, I can learn to love another cat again). I''m super cute and cuddly, but sometimes I get over-aroused and don''t want to be petted anymore. For a middle-aged kitty, I''m pretty playful, and I''ve still got lots of love to give! I know there''s lots of fun to be had out there with someone; will you please give me a second chance?',
+'Hi, I''m Pheobe, but you can call me Princess Pheobe, if you please. I lived a long time with a family but then a lot of changes happened-new kids and dogs appeared, and I lost my kitty friend, so they thought I''d do better in a new home where I can rule the household...'
+);
+======================
+INSERT INTO Cats Values (
+default,
+30511933,
+'Brodie',
+'http://www.petango.com/sms/photos/1163/f8e42e45-4eac-4048-ae95-48d3ad6e1397.jpg',
+'http://www.petango.com/sms/photos/1163/86769ad5-ce09-4326-b5b8-cf5949109d12.jpg',
+'http://www.petango.com/sms/photos/1163/cc025d1d-6b84-4553-8382-da1d18ef8a69.jpg',
+'grey',
+'domestic short hair',
+1,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Brodie!',
+'Please contact the shelter for more information about Brodie.'
+);
+===============
+INSERT INTO Cats Values (
+default,
+31025554,
+'Seamore',
+'http://www.petango.com/sms/photos/1163/3fc1fbd3-50c2-4313-bfbc-fa4582f49ce5.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'orange',
+'domestic short hair',
+0,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 6-month-old Seamore!',
+'Please contact the shelter for more information about 6-month-old Seamore.'
+);
+===============
+INSERT INTO Cats Values (
+default,
+31066633,
+'Lillian',
+'http://www.petango.com/sms/photos/1163/e9c5c807-b285-4b9a-bdca-f8b15dd7f338.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic long hair',
+3,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Lillian!',
+'Please contact the shelter for more information about Lillian.'
+);
+===============
 
 
 
