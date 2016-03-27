@@ -651,5 +651,287 @@ TRUE,
 );
 
 
+===============
+
+INSERT INTO Cats Values (
+default,
+31088373,
+'Trigger',
+'http://www.petango.com/sms/photos/1163/2dc816ed-8a78-4842-843f-e6f8f80f8d4b.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic short hair',
+2,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Trigger!',
+'Please contact the shelter for more information about Trigger...'
+);
+===============
+INSERT INTO Cats Values (
+default,
+31115019,
+'Angel',
+'http://www.petango.com/sms/photos/1163/e9a79c15-eac6-4943-86d4-195c925d6359.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'black',
+'domestic short hair',
+1,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Angel!',
+'Please contact the shelter for more information about Angel...'
+);
+==============
+INSERT INTO Cats Values (
+default,
+30872424,
+'Venus',
+'http://www.petango.com/sms/photos/1163/40fc8200-31ea-4b9b-82dd-7c1954433616.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tortie',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Venus!',
+'Please contact the shelter for more information about Venus...'
+);
+================
+INSERT INTO Cats Values (
+default,
+30877711,
+'Leto',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'orange',
+'domestic long hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Leto!',
+'Please contact the shelter for more information about Leto...'
+);
+
+===============
+INSERT INTO Cats Values (
+default,
+30953668,
+'Christopher',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'orange',
+'domestic short hair',
+0,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 2-month-old Christopher!',
+'Please contact the shelter for more information about 2-month-old Christoper...'
+);
+
+=================
+INSERT INTO Cats Values (
+default,
+21932947,
+'Lela',
+'http://www.petango.com/sms/photos/1163/fa5c5278-72ea-457d-8aa8-af7caeaf90ba.jpg',
+'http://www.petango.com/sms/photos/1163/e17c9417-3975-44a4-aac9-bb2dd305e8cd.jpg',
+'http://www.petango.com/sms/photos/1163/a19e2aee-97f0-4954-8847-9eb550e40acb.jpg',
+'black',
+'domestic short hair',
+8,
+TRUE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'I came to FCCRSNC because my family found out I had diabetes and wanted me to have the care I need. I am SUPER affectionate and love to sit on your lap, but am also very respectful of space. I really like to be talked to and will show you my affection by giving you headbutts! I am also good about taking the insulin I need for my diabetes, and I never have accidents. I would definitely not mind a home with dogs, I am GREAT with dogs. If I go to a home with another cat we need to be introduced slowly and carefully. If you would like to meet me, please fill out an Adoption Questionnaire at http://www.fccrsnc.org/Form_adoption_questionnaire.php and then you may contact my foster mom Kayla at knporcelli@yahoo.com.',
+'I came to FCCRSNC because my family found out I had diabetes and wanted me to have the care I need. I am SUPER affectionate and love to sit on your lap, but am also very respectful of space...'
+);
+
+=============
+INSERT INTO Cats Values (
+default,
+31017962,
+'Mystic',
+'http://www.petango.com/sms/photos/1163/cef34117-ba15-47ff-8f5d-21067aee4119.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'black',
+'domestic short hair',
+0,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 6-month-old Mystic!',
+'Please contact the shelter for more information about 2-month-old Mystic...'
+);
+===============
+INSERT INTO Cats Values (
+default,
+22006670,
+'Prescilla',
+'http://www.petango.com/sms/photos/1163/7e12941e-9b59-41e2-a108-65a95a03a9b8.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'white',
+'domestic long hair',
+16,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'If you would like to meet me, please fill out an Adoption Questionnaire at http://www.fccrsnc.org/Form_adoption_questionnaire.php and then you may contact my foster mom Brigitte at brigitte.schmidt@colostate.edu or 970-224-9418 to set up a meeting.',
+'If you would like to meet me, please fill out an Adoption Questionnaire at http://www.fccrsnc.org/Form_adoption_questionnaire.php and then you may contact my foster mom Brigitte at brigitte.schmidt@colostate.edu or 970-224-9418 to set up a meeting.'
+);
+=================
+INSERT INTO Cats Values (
+default,
+31141241,
+'Titus',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'white',
+'domestic short hair',
+3,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Titus!',
+'Please contact the shelter for more information about Titus.'
+);
+==================
+INSERT INTO Cats Values (
+default,
+30877907,
+'Socks',
+'http://www.petango.com/sms/photos/1163/0b457a99-42af-4d84-a2f5-1e2c69e5279c.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'black',
+'domestic short hair',
+1,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 9-month-old Socks!',
+'Please contact the shelter for more information about 9-month-old Socks.'
+);
+===================
+INSERT INTO Cats Values (
+default,
+21864674,
+'Paltrow',
+'http://www.petango.com/sms/photos/1163/ba357c3d-6b1a-4bd1-a405-b688a6445cd1.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic long hair',
+6,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Paltrow!',
+'Please contact the shelter for more information about Paltrow.'
+);
+
+==================
+
+INSERT INTO Cats Values (
+default,
+30387550,
+'Houston',
+'http://www.petango.com/sms/photos/1163/f3dd07fe-59eb-4bc5-a52b-88b2e8f1ff1d.jpg',
+'http://www.petango.com/sms/photos/1163/6e4d2e5b-e242-4e9d-b8db-c59dac44be99.jpg',
+'http://www.petango.com/sms/photos/1163/70b44e8b-1ebc-4479-9b4b-2ea44f72113e.jpg',
+'black',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+FALSE,
+TRUE,
+'Any',
+'Yep, I''m a native Texan! I arrived here pretty skinny but now I''m healthy and happy (and gorgeous, if I do say so myself). In my previous home, I didn''t get along with the kids, so I may do best in a home with no small children. But I''m really quite a lover-affectionate (purring is one of my favorite pastimes), playful and smart! I''m learning to spin, high-five and beg. Although I do enjoy petting, too much of it might cause me to nip. I''m only 2 years old but I''ve already been through a lot. Will you please come meet me and take me to my forever home? I have so much love to give!',
+'Yep, I''m a native Texan! I arrived here pretty skinny but now I''m healthy and happy (and gorgeous, if I do say so myself)...'
+);
+=================
+INSERT INTO Cats Values (
+default,
+31126783,
+'Stitch',
+'http://www.petango.com/sms/photos/1163/43f8c1d5-64e5-44b5-8aa6-cee75b4ad34d.jpg',
+'http://www.petango.com/sms/photos/1163/2e3c44be-5180-4975-bb0e-8518539b8e21.jpg',
+'../assets/img/cat-extra.png',
+'grey',
+'domestic short hair',
+1,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Stitch!',
+'Please contact the shelter for more information about Stitch.'
+);
+
+
+
 
 
