@@ -140,7 +140,7 @@ FALSE,
 TRUE,
 FALSE,
 'Any',
-'Isabella is a beautiful, orange and white princess with gorgeous, soulful eyes whose favorite activity is sitting in a human''s lap (or on a warm laptop preventing her human from working so they can pay attention to her)! As with most divas, she is a perfect blend of snuggles and sass. She can sometimes take a little time to warm up to people, but she loves to be petted and gives the most adorable head butts. And because Princess Isabella Sassafras, as she is affectionately called by FCCRSNC staff, can be very un-princess-like around other cats, she''s looking for a home with a human(s) she can have all to herself. If you are looking for a wonderful companion who is snuggly but not too needy, Isabella might just be your girl! Ask about her today, and check out her awesome video here: https://www.youtube.com/watch?v=pidL7yrI9Zw - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-30230156#sthash.CUJ6Gfmu.dpuf',
+'Isabella is a beautiful, orange and white princess with gorgeous, soulful eyes whose favorite activity is sitting in a human''s lap (or on a warm laptop preventing her human from working so they can pay attention to her)! As with most divas, she is a perfect blend of snuggles and sass. She can sometimes take a little time to warm up to people, but she loves to be petted and gives the most adorable head butts. And because Princess Isabella Sassafras, as she is affectionately called by FCCRSNC staff, can be very un-princess-like around other cats, she''s looking for a home with a human(s) she can have all to herself. If you are looking for a wonderful companion who is snuggly but not too needy, Isabella might just be your girl! Ask about her today, and check out her awesome video here: https://www.youtube.com/watch?v=pidL7yrI9Zw',
 'Isabella is a beautiful, orange and white princess with gorgeous, soulful eyes whose favorite activity is sitting in a human''s lap (or on a warm laptop preventing her human from working so they can pay attention to her)! As with most divas, she is a perfect blend of snuggles and sass...'
 );
 
@@ -164,7 +164,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'They don''t come much cuter than me. With my little round head and my big round eyes, along with my skill of putting myself into very cute poses, how can you possibly resist me? My mildly feisty personality will keep you entertained while my usual cuddliness will make you forgive any rudeness on my part. Oh, and I''m learning to high-five and spin in a circle-how fun is that? Watch my video at https://youtu.be/jJPr1uZOMNg, search for me on the Clicker Learning Institute''s YouTube channel, or just scan the QR code below. Although I might do okay with another laid-back cat and proper introductions, I wouldn''t mind being your one and only feline princess. Please come make me part of your family today! - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-30877817#sthash.7VmQkYd3.dpuf',
+'They don''t come much cuter than me. With my little round head and my big round eyes, along with my skill of putting myself into very cute poses, how can you possibly resist me? My mildly feisty personality will keep you entertained while my usual cuddliness will make you forgive any rudeness on my part. Oh, and I''m learning to high-five and spin in a circle-how fun is that? Watch my video at https://youtu.be/jJPr1uZOMNg, search for me on the Clicker Learning Institute''s YouTube channel, or just scan the QR code below. Although I might do okay with another laid-back cat and proper introductions, I wouldn''t mind being your one and only feline princess. Please come make me part of your family today!',
 'They don''t come much cuter than me. With my little round head and my big round eyes, along with my skill of putting myself into very cute poses, how can you possibly resist me?...'
 );
 
@@ -186,7 +186,7 @@ FALSE,
 FALSE,
 FALSE,
 'Quiet',
-'Sarah Belle has a condition called Cerebellar Hypoplasia. This just means her motor skills are a bit off and she moves around a little funny. She has come a long way since being in foster care. She loves to be brushed, get head scratches, snuggle in bed with you at night, lay in sunbeams and play with feather teaser toys. She uses a large, low sided litter box perfectly. She eats and drinks just fine out of sturdy ceramic dishes. She does not like other cats and appears to dislike dogs as well and needs to be the only pet in the house but she is worth it. She can get startled by fast movements and therefore, needs to go to a home with no small children. Older kids that can respect her boundaries should be ok. Please visit chcat.org to learn more about this condition. If you are interested in Sarah Belle, you may contact the shelter for more information. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-28564022#sthash.E41CiAYX.dpuf',
+'Sarah Belle has a condition called Cerebellar Hypoplasia. This just means her motor skills are a bit off and she moves around a little funny. She has come a long way since being in foster care. She loves to be brushed, get head scratches, snuggle in bed with you at night, lay in sunbeams and play with feather teaser toys. She uses a large, low sided litter box perfectly. She eats and drinks just fine out of sturdy ceramic dishes. She does not like other cats and appears to dislike dogs as well and needs to be the only pet in the house but she is worth it. She can get startled by fast movements and therefore, needs to go to a home with no small children. Older kids that can respect her boundaries should be ok. Please visit chcat.org to learn more about this condition. If you are interested in Sarah Belle, you may contact the shelter for more information.',
 'Sarah Belle has a condition called Cerebellar Hypoplasia. This just means her motor skills are a bit off and she moves around a little funny. She has come a long way since being in foster care. She loves to be brushed, get head scratches, snuggle in bed with you at night, lay in sunbeams and play with feather teaser toys. She uses a large, low sided litter box perfectly...'
 );
 
@@ -230,7 +230,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'Hi, I''m Frank (aka Frank the Tank)! I''m a delightful middle aged kitty ready to join your family! I am very outgoing, and I enjoy spending time with all people, including kids. I love to cuddle on your lap, and I am also quite the conversationalist for those who enjoy a talkative kitty! I get along well with other cats, tending to mind my own business. I tolerate dogs as well, but I''m not afraid to stand my ground if they invade my space. I was abandoned at the shelter in poor health in June 2015, and was diagnosed with diabetes and severe dental disease at the time. Since then I have fully recovered, and I don''t need any medication anymore. I had to have several teeth pulled including my upper canines to make my mouth feel better, so sometimes my bottom canines stick out funny making it look like I''m smiling. Now that my diabetes is in remission, I just need a strict diet and weight management to stay healthy and live a long happy life. I do love the exercise and mental stimulation I get with various food puzzles my foster parents make me, so it''s easy to make my meals fun and keep me healthy (since I tend to overeat otherwise). Please contact the Fort Collins Cat Rescue if you are interested in meeting me. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-28252609#sthash.hG6ITRlp.dpuf',
+'Hi, I''m Frank (aka Frank the Tank)! I''m a delightful middle aged kitty ready to join your family! I am very outgoing, and I enjoy spending time with all people, including kids. I love to cuddle on your lap, and I am also quite the conversationalist for those who enjoy a talkative kitty! I get along well with other cats, tending to mind my own business. I tolerate dogs as well, but I''m not afraid to stand my ground if they invade my space. I was abandoned at the shelter in poor health in June 2015, and was diagnosed with diabetes and severe dental disease at the time. Since then I have fully recovered, and I don''t need any medication anymore. I had to have several teeth pulled including my upper canines to make my mouth feel better, so sometimes my bottom canines stick out funny making it look like I''m smiling. Now that my diabetes is in remission, I just need a strict diet and weight management to stay healthy and live a long happy life. I do love the exercise and mental stimulation I get with various food puzzles my foster parents make me, so it''s easy to make my meals fun and keep me healthy (since I tend to overeat otherwise). Please contact the Fort Collins Cat Rescue if you are interested in meeting me.',
 'Hi, I''m Frank (aka Frank the Tank)! I''m a delightful middle aged kitty ready to join your family! I am very outgoing, and I enjoy spending time with all people, including kids. I love to cuddle on your lap, and I am also quite the conversationalist for those who enjoy a talkative kitty! I get along well with other cats, tending to mind my own business...'
 );
 
@@ -285,7 +285,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'Hello, my name is Abacus. You can count on me (get it? Count...abacus...) to be a super snuggly kitty once I get to know you. I don''t play a whole lot but I do love to cuddle and give kisses! With clicker training, I was learning to high-five, spin and beg. My shameful secret (don''t we all have those?) is that I get stressed out living with other cats and then I pee outside the litterbox. I know, it''s so embarrassing but I can''t help it. So I''d do best in a home with no other kitties. I''ve been in the shelter system for over a year (minus a few months in a foster home and even an adoptive home) so I''m really hoping to find my forever home soon! Can I count on you (there it is again!) to take me home and love me forever? See my video at https://www.youtube.com/watch?v=MpgqkPKqBOw, find me by searching for the Clicker Learning Institute''s YouTube channel. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-23899124#sthash.aHpUam4m.dpuf',
+'Hello, my name is Abacus. You can count on me (get it? Count...abacus...) to be a super snuggly kitty once I get to know you. I don''t play a whole lot but I do love to cuddle and give kisses! With clicker training, I was learning to high-five, spin and beg. My shameful secret (don''t we all have those?) is that I get stressed out living with other cats and then I pee outside the litterbox. I know, it''s so embarrassing but I can''t help it. So I''d do best in a home with no other kitties. I''ve been in the shelter system for over a year (minus a few months in a foster home and even an adoptive home) so I''m really hoping to find my forever home soon! Can I count on you (there it is again!) to take me home and love me forever? See my video at https://www.youtube.com/watch?v=MpgqkPKqBOw, find me by searching for the Clicker Learning Institute''s YouTube channel.',
 'Hello, my name is Abacus. You can count on me (get it? Count...abacus...) to be a super snuggly kitty once I get to know you. I don''t play a whole lot but I do love to cuddle and give kisses! With clicker training, I was learning to high-five, spin and beg...'
 );
 
@@ -329,7 +329,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'Hi, my name is Ferdinand. I may have the "grumpy old man" appearance in my pictures, but I am far from that! It''s true, I am a mature adult, but that doesn''t mean I don''t have the attitude and energy of a kitten. I love all people, even the little ones. I also love cuddling, eating, and playing with toys (watch the video of me, and you''ll see how darn cute and spunky I am). I had to get a funny haircut because my fur was matted, so I will need your help grooming me as my hair grows back. I enjoy the company of other animals, and will fit in just fine if you have other furry family members. I do have limited vision and early kidney disease that have come with age, but you wouldn''t know it when you see me because I don''t let anything get me down. Eating a special food helps my kidneys, and I still have a super appetite and I don''t require any medications right now. I also have FIV (a kitty virus that may slightly affect my immune system), but I can stay healthy with an indoor home for years to come. - See more at: http://www.petango.com/Adopt/Cat-Maine-Coon-30458828#sthash.L1LiBRtB.dpuf',
+'Hi, my name is Ferdinand. I may have the "grumpy old man" appearance in my pictures, but I am far from that! It''s true, I am a mature adult, but that doesn''t mean I don''t have the attitude and energy of a kitten. I love all people, even the little ones. I also love cuddling, eating, and playing with toys (watch the video of me, and you''ll see how darn cute and spunky I am). I had to get a funny haircut because my fur was matted, so I will need your help grooming me as my hair grows back. I enjoy the company of other animals, and will fit in just fine if you have other furry family members. I do have limited vision and early kidney disease that have come with age, but you wouldn''t know it when you see me because I don''t let anything get me down. Eating a special food helps my kidneys, and I still have a super appetite and I don''t require any medications right now. I also have FIV (a kitty virus that may slightly affect my immune system), but I can stay healthy with an indoor home for years to come.',
 'Hi, my name is Ferdinand. I may have the "grumpy old man" appearance in my pictures, but I am far from that! It''s true, I am a mature adult, but that doesn''t mean I don''t have the attitude and energy of a kitten. I love all people, even the little ones.'
 );
 
@@ -395,7 +395,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'Hello world. I am a gorgeous and special kitty, and I know what I want from my soon-to-be new, favorite person. If you meet these expectations then, yes, you can take me home: (1) A Cat Dancer! This is my favorite, favorite toy. (2) Feather toys! I love these, too. (3) You are perfectly okay with petting me sometimes but leaving me be when I want my alone time (hey, aren''t we all like that, really?). (4) You can read and respect my body language; it''s the only way I know how to tell you what I want and need. (5) More Cat Dancers! (6) No other cats-you must love me and only me. (7) Birds outside the window to watch and chatter at. I don''t think that''s too much to ask, do you? Great! Then I''ll be waiting right here for YOU! Please don''t take too long to come get me. See my video at https://youtu.be/GkgXGbDAy14. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-22156175#sthash.iEoORsJ9.dpuf',
+'Hello world. I am a gorgeous and special kitty, and I know what I want from my soon-to-be new, favorite person. If you meet these expectations then, yes, you can take me home: (1) A Cat Dancer! This is my favorite, favorite toy. (2) Feather toys! I love these, too. (3) You are perfectly okay with petting me sometimes but leaving me be when I want my alone time (hey, aren''t we all like that, really?). (4) You can read and respect my body language; it''s the only way I know how to tell you what I want and need. (5) More Cat Dancers! (6) No other cats-you must love me and only me. (7) Birds outside the window to watch and chatter at. I don''t think that''s too much to ask, do you? Great! Then I''ll be waiting right here for YOU! Please don''t take too long to come get me. See my video at https://youtu.be/GkgXGbDAy14.',
 'Hello world. I am a gorgeous and special kitty, and I know what I want from my soon-to-be new, favorite person. If you meet these expectations then, yes, you can take me home: (1) A Cat Dancer! This is my favorite, favorite toy...'
 );
 
@@ -470,7 +470,7 @@ TRUE,
 TRUE,
 'Any',
 'I am very nervous and curious at first. Once I settle in though, I am well behaved, calm, and have a great loving personality! I love some affection here and there, but am also completely content lounging or exploring on my own. I prefer to be the only cat of the house; others like me stress me out! I am a lover when I get all the attention to myself! I like all treats (I am a hungry kitty...) and since I am older I am not too playful, but occasionally I have fun with fishing pole-like toys. Sometimes I just try to cuddle with my toys instead of attack them, it is pretty cute. I am a lover!
-Some words that describe me are: Affectionate, Mellow, Curious, Independent, Easygoing, Easily startled, Quick to react, Loves food. - See more at: http://www.petango.com/Adopt/Cat-Domestic-Shorthair-24878434#sthash.OweDAPkG.dpuf',
+Some words that describe me are: Affectionate, Mellow, Curious, Independent, Easygoing, Easily startled, Quick to react, Loves food.',
 'I am very nervous and curious at first. Once I settle in though, I am well behaved, calm, and have a great loving personality! I love some affection here and there, but am also completely content lounging or exploring on my own...'
 );
 ==============
@@ -491,7 +491,7 @@ TRUE,
 TRUE,
 TRUE,
 'Any',
-'Althea is a true delight! But she is looking for someone who will be patient and kind with her, as she is initially quite shy and wary of hands coming toward her. However, Althea is super snuggly once she gets to know you and loves to cuddle with her head in your hand, purring away. This beautiful girl is super playful and will entertain herself with toys if you''re too busy at the moment, though she also loves to play with people. Althea is also hoping someone will help her slim down a bit so she can live the longest, happiest and healthiest life possible! See her video at https://www.youtube.com/watch?v=Igcy-qt4iWY (search YouTube for the Clicker Learning Institute''s channel or scan the QR code below to go right to it). Then come on down and give her the forever home she''s been searching for! - See more at: http://www.petango.com/Adopt/Cat-Snowshoe-30872592#sthash.c3tnIxxV.dpuf',
+'Althea is a true delight! But she is looking for someone who will be patient and kind with her, as she is initially quite shy and wary of hands coming toward her. However, Althea is super snuggly once she gets to know you and loves to cuddle with her head in your hand, purring away. This beautiful girl is super playful and will entertain herself with toys if you''re too busy at the moment, though she also loves to play with people. Althea is also hoping someone will help her slim down a bit so she can live the longest, happiest and healthiest life possible! See her video at https://www.youtube.com/watch?v=Igcy-qt4iWY (search YouTube for the Clicker Learning Institute''s channel or scan the QR code below to go right to it). Then come on down and give her the forever home she''s been searching for!',
 'Althea is a true delight! But she is looking for someone who will be patient and kind with her, as she is initially quite shy and wary of hands coming toward her. However, Althea is super snuggly once she gets to know you and loves to cuddle with her head in your hand, purring away...'
 );
 
@@ -742,7 +742,7 @@ INSERT INTO Cats Values (
 default,
 30953668,
 'Christopher',
-'http://www.petango.com/images/PhotoNotAvailable.gif',
+'http://www.petango.com/sms/photos/1163/ecc73921-ba5a-45a7-90ec-724851ccb3d8.jpg',
 '../assets/img/cat-extra.png',
 '../assets/img/cat-extra.png',
 'orange',
@@ -998,7 +998,7 @@ INSERT INTO Cats Values (
 default,
 30953694,
 'Roo',
-'http://www.petango.com/images/PhotoNotAvailable.gif',
+'http://www.petango.com/sms/photos/1163/35b16598-f56a-46f5-a503-09eb6c468d1c.jpg',
 '../assets/img/cat-extra.png',
 '../assets/img/cat-extra.png',
 'white',
@@ -1141,7 +1141,69 @@ TRUE,
 'Please contact the shelter for more information about Lillian.'
 );
 ===============
-
+INSERT INTO Cats Values (
+default,
+30953719,
+'Kanga',
+'http://www.petango.com/sms/photos/1163/bb0bd848-5687-4c56-b465-39722c50070d.jpg',
+'http://www.petango.com/sms/photos/1163/f7fd6a1a-c5d8-4a27-92d9-611de21f1508.jpg',
+'../assets/img/cat-extra.png',
+'tortie',
+'domestic short hair',
+2,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Kanga!',
+'Please contact the shelter for more information about Kanga.'
+);
+==============
+INSERT INTO Cats Values (
+default,
+31167304,
+'Prince Walter',
+'http://www.petango.com/sms/photos/1163/3cc0cf41-c067-470a-a2f8-cc9e32d97872.jpg',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'tiger',
+'domestic long hair',
+2,
+FALSE,
+'male',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about Prince Walter!',
+'Please contact the shelter for more information about Prince Walter.'
+);
+============
+INSERT INTO Cats Values (
+default,
+31114960,
+'Harper',
+'http://www.petango.com/images/PhotoNotAvailable.gif',
+'../assets/img/cat-extra.png',
+'../assets/img/cat-extra.png',
+'black',
+'domestic short hair',
+0,
+FALSE,
+'female',
+TRUE,
+TRUE,
+TRUE,
+TRUE,
+'Any',
+'Please contact the shelter for more information about 4-month-old Harper!',
+'Please contact the shelter for more information about 4-month-old Harper.'
+);
+============
 
 
 
