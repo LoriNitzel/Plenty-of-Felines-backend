@@ -16,7 +16,7 @@ module.exports.joinPOF = function(req, res) {
 
 module.exports.loginPOF = function(req, res){
   req.models.users.findOne({ email: req.body.email }, function(err, model){
-    if(err) return res.json({ err: err }, 500);
+    if(err) return res.json({ err: err }, 401);
     console.log(req.body.email);
     console.log(model);
     bcrypt.compare(req.body.password, model.password, function(err, result){
@@ -24,6 +24,9 @@ module.exports.loginPOF = function(req, res){
         console.log("passwords match");
         var token = jsonwebtoken.sign({ id: model.id }, process.env.JWT_SECRET);
         res.json({'token': token, 'id': model.id});
+      } else {
+        console.log("password troubles!");
+        res.json({ err: err }, 401);
       }
     });
   })

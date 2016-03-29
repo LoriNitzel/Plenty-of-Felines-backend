@@ -1204,6 +1204,6 @@ TRUE,
 'Please contact the shelter for more information about 4-month-old Harper.'
 );
 ============
-
+select name from Cats order by name;
 
 
