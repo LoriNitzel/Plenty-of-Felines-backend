@@ -19,8 +19,7 @@ var config = {
 
     myLocalPostgres: {
       adapter: 'postgres',
-      host: 'localhost',
-      database: 'POF'
+      url: process.env.DATABASE_URL
     }
   },
 
