@@ -16,9 +16,17 @@ module.exports.joinPOF = function(req, res) {
 
 module.exports.loginPOF = function(req, res){
   req.models.users.findOne({ email: req.body.email }, function(err, model){
-    if(err) return res.json({ err: err }, 401);
-    console.log(req.body.email);
+    
     console.log(model);
+    console.log(err);
+
+    if(err || model === undefined){
+      return res.json({ err: err }, 401);
+    }
+
+    // console.log(req.body.email);
+    // console.log(model);
+    console.log('im here!');
     bcrypt.compare(req.body.password, model.password, function(err, result){
       if(result == true){
         console.log("passwords match");
